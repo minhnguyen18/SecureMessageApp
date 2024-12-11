@@ -14,8 +14,10 @@
       }
     },
     "includePath": [
-        "${workspaceFolder}/**",
-        "/usr/local/opt/openssl/include"
+      "${workspaceFolder}/**",
+      "/opt/homebrew/Cellar/openssl@3/3.4.0/include",
+      "/usr/include",
+      "/usr/local/include"
     ],
     "libraryPath": [
         "/usr/local/opt/openssl/lib"
